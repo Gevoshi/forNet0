@@ -4,7 +4,7 @@ This template should help get you started developing with Vue 3 in Vite.
 
 # Live Demo
 
-[Link](https://testfornet0.surge.sh/)
+[Link](https://testnet0.surge.sh/)
 
 ## Recommended IDE Setup
 
