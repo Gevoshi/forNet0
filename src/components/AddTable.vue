@@ -72,7 +72,7 @@ const order = ref({
 })
 
 const createOrder = () => {
-    order.id = Date.now();
+    order.value.id = Date.now();
     if(order.value.reservable){
         order.value.reservable = 'Yes'
     }
@@ -82,9 +82,9 @@ const createOrder = () => {
     emit("create", {...order.value});
     order.value = {
         tableName: '',
-        numberOfSeats: '',
+        numberOfSeats: 0,
         area: '',
-        reservable: '',
+        reservable: false,
     };
 };
 </script>
