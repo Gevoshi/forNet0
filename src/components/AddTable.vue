@@ -65,9 +65,9 @@ const emit = defineEmits(['create'])
 
 const order = ref({
     tableName: '',
-    numberOfSeats: '', 
+    numberOfSeats: 0, 
     area: '', 
-    reservable: '', 
+    reservable: false, 
     action: '(X)'
 })
 
